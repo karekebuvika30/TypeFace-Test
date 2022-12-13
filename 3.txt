@@ -1,0 +1,11 @@
+To create such datastore which would handle the given amount of users data and answer the queries or requests
+it would be good option to use a Relational Data Base. A RDBMS synchornizes and stores the user information 
+in tables with connection between every table, hence it becomes easy to access the required data in limited time.
+
+The internal implementation of these tables include row based parsing and validation. SQL queries are written
+to access and update data values from the RDBMS. The time-complexity of the operations depends on the amount of 
+data. Usually the time-complexity in best case is O(nlog(n)) and worst case is O(n^2).
+
+In order to get the API with maximum response time among users and maximum response for user the timestamp feature
+can be used and the response time can be calculated. Since, RDBMS show ACID(Atomicity, Concurrency, Integrity, Data-Depedency)
+properties there is very less or no scope of error.
